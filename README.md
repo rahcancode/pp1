@@ -58,7 +58,8 @@ Add your user stories here. You want to include first time visitors and returnin
 
 Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
 
-<img src="../assets/images/colorpalette.png">
+![](https://monosnap.com/file/KTYUwUTybSu4RCmeAlzGYkugJiBJjX)
+
 ### Typography
 
 If you've imported fonts to use in your project, add some information about them here. You can include information like:

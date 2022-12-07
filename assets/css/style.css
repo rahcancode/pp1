@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Source Sans Pro:400');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+    font-family: Source Sans Pro, sans-serif;
+    color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2{
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #585123;
+}
+
+#logo{
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+/* navigation links */
+
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#logo, #menu{
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover{
+    border-bottom: 1px solid #f58549;
+}
+
+.active{
+    border-bottom: 1px solid #772F1A;
+}
+
+/* Hero image and cover text */
+
+#hero-outer{
+    height:600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image{
+    height:600px;
+    width: 100%;
+    background: url("../images/baby-nursery.jpg") no-repeat center center;
+}
