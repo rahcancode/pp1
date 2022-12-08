@@ -76,15 +76,21 @@ h1, h2 {
 
 #welcome {
     margin: 20px 0;
-    text-align: center;
+    text-align: justify;
     font-size: 26px;
+    max-width: 600px;
+    position: relative;
+    margin: 0 auto;
+    padding: 25px;
 }
 
 /* Resources */
 
 #resources {
     height: 500px;
-    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
 }
 
 #left-about {
@@ -113,7 +119,7 @@ hr {
 .left-about-heading {
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -121,7 +127,7 @@ hr {
 .right-about-heading {
     width: 60%;
     float: left;
-    line-height: 20px;
+    line-height: 25px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -160,18 +166,23 @@ hr {
     background: url('../images/newsletter.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 400px;
+    padding: 25px;
 }
 
 .newsletter {
-    margin: 150px 10% 0 0;
     color: #fff;
     background-color: #f58549;
     max-width: 400px;
     max-height: fit-content;
     position: relative;
-    left: 10%;
-    padding: 85px;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+#newsletter > h2 {
+    background-color: #fafafa;
+    max-width: 325px;
 }
 
 .newsletter > h2 {
@@ -212,7 +223,7 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 50px;
 }
 
 .social-networks {
