@@ -89,8 +89,14 @@ h1, h2 {
 #resources {
     height: 500px;
     text-align: center;
-    padding-top: 50px;
-    font-size: 16px;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+#resources > h2 {
+    font-size: 39px;
+    padding-bottom: 25px;
+    margin: 0 auto;
 }
 
 #left-about {
@@ -182,7 +188,10 @@ hr {
 
 #newsletter > h2 {
     background-color: #fafafa;
-    max-width: 325px;
+    font-size: 39px;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 0 5px 0 5px;
 }
 
 .newsletter > h2 {
