@@ -1,6 +1,6 @@
 # Your Village
 
-![](https://monosnap.com/file/Rgg5ikeNKYmT068Swe4T2ij3FJ9p7J)
+
 
 This first project was born from the idea that when I was preparing to have my first baby, there was either no information about certain topics (like combo feeding for example) or an overwhelming amount of information about others. 18 months on and I wish there was a one stop link tree, landing page or website with just a few useful resources, that I could easily scroll one handed on my phone in those first few days and weeks while my son slept on me, so that I had the information I so desperately needed at the time.
 
@@ -9,14 +9,12 @@ The project's name "Your Village" comes from the saying "It takes a village to r
 I aim to keep the website clear and concise, easy to navigate on mobile devices first and foremost, and with relevant resources for new parents in Ireland. There will be a mock "Newsletter" or group sign-up form to meet the project criteria, as though this is part of a local initiative and you can meet with other parents in your area.
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-### Existing Features
+The webpage is a single landing page with three main sections: A welcome section with my inspiration for making the page, a resources section with four external links to useful websites I used frequently in my early postpartum days, and a mock newsletter sign-up form.
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on the page is the full responsive navigation bar, which includes anchor links to the Logo, Home page, Resources and Newsletter sections.
+  - This will allow the user to easily navigate from section to section across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
