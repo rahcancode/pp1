@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Lato:300');
 
-*{
+* {
     margin:0;
     padding:0;
     border:0;
 }
 
-body{
+body {
     font-family: Lato, sans-serif;
     color: #ffffff;
     background-color: #f2a65a;
@@ -14,27 +14,27 @@ body{
 
 /* headings and logo */
 
-h1, h2{
+h1, h2 {
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #585123;
 }
 
-#logo{
+#logo {
     float: left;
-    font-size: 280%;
+    font-size: 200%;
     margin-left: 30px;
 }
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
 }
 
-#logo, #menu{
+#logo, #menu {
     line-height: 75px;
 }
 
@@ -49,33 +49,42 @@ h1, h2{
     color: inherit;
 }
 
-#menu a:hover{
+#menu a:hover {
     border-bottom: 1px solid #f58549;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #772F1A;
 }
 
 /* Hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
 #hero-image {
-    height: 800px;
+    height: 500px;
     width: 100%;
-    background: url('../images/baby-nursery.jpg') no-repeat center center;
+    background: url('../images/hero3.jpg') no-repeat center center;
+}
+
+/* Welcome */
+
+#welcome {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 26px;
 }
 
 /* Resources */
 
 #resources {
-    height: 600px;
+    height: 500px;
+    align-content: center;
 }
 
 #left-about {
@@ -96,7 +105,7 @@ h1, h2{
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #eec170;
     width: 100%;
     margin: 5px 0;
 }
@@ -127,12 +136,6 @@ hr {
 
 /* Resources center image */
 
-#welcome {
-    margin: 20px 0;
-    text-align: center;
-    font-size: 280%;
-}
-
 #circle-container {
     width: 350px;
     height: 350px;
@@ -150,44 +153,25 @@ hr {
     border-radius: 75%;
 }
 
-/* footer */
-
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
 /* Newsletter */
 
-.form-section {
+#newsletter {
     clear: left;
     background: url('../images/newsletter.jpg');
     background-size: cover;
     background-position: center;
+    height: 500px;
 }
 
 .newsletter {
     margin: 150px 10% 0 0;
     color: #fff;
-    background-color: #772f1a;
+    background-color: #f58549;
     max-width: 400px;
-    position: absolute;
+    max-height: fit-content;
+    position: relative;
     left: 10%;
-    padding: 30px;
+    padding: 85px;
 }
 
 .newsletter > h2 {
@@ -225,11 +209,32 @@ footer {
     color: #f58549;
 }
 
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
 /* Media queries */
 
 /* For large to medium screens sizes from 1200px wide and down */
-@media screen and (max-width: 1200px){
-    #club-ethos{
+@media screen and (max-width: 1200px) {
+    #resources {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -246,17 +251,10 @@ footer {
         padding: 0;
     }
 
-    #center-about{
+    #center-about {
         clear: both;
         width: 100%;
         float: left;
-        padding: 0;
-    }
-
-    #times div {
-        width: 100%;
-        clear: both;
-        height: 150px;
         padding: 0;
     }
 
@@ -268,7 +266,7 @@ footer {
 /* For medium screens sizes from 950px wide and down */
 @media screen and (max-width: 950px){
 
-    #menu{
+    #menu {
         clear: left;
         float: left;
         margin-left: 30px; 
@@ -276,38 +274,27 @@ footer {
         line-height: 25px;
     }
 
-    #cover-text{
+    #cover-text {
         left:0px;
     }
 
-    #club-ethos{
+    #resources {
         width:90%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    .left-about-heading, .right-about-heading{
+    .left-about-heading, .right-about-heading {
         width: inherit;
     }
 
-    .left-about-heading h2, .right-about-heading h2{
+    .left-about-heading h2, .right-about-heading h2 {
         width: 100%;
         text-align: center;
     }
 
-    .left-about-heading p, .right-about-heading p{
+    .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px 0 20px;
-    }
-
-    #photo{
-        column-count: 3;
-    }
-}
-
-/* For small screens sizes from 800px wide and down */
-@media screen and (max-width: 800px){
-    #photo{
-        column-count: 2;
     }
 }
