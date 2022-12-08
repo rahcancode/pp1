@@ -99,6 +99,21 @@ h1, h2 {
     margin: 0 auto;
 }
 
+#resources a:link, a:visited {
+    background-color: white;
+    color: #585123;
+    border: 2px solid #585123;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+#resources a:hover, a:active {
+    background-color: #772F1A;
+    color: white;
+  }
+
 #left-about {
     padding-top: 30px;
     width: 33%;
@@ -183,15 +198,8 @@ hr {
     max-height: fit-content;
     position: relative;
     padding: 25px;
+    border-radius: 25px;
     margin: 0 auto;
-}
-
-#newsletter > h2 {
-    background-color: #fafafa;
-    font-size: 39px;
-    max-width: 480px;
-    margin: 0 auto;
-    padding: 0 5px 0 5px;
 }
 
 .newsletter > h2 {
@@ -247,7 +255,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #585123;
 }
 
 /* Media queries */
