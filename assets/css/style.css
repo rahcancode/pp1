@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     color: #ffffff;
     background-color: #f2a65a;
+    font-display: swap;
 }
 
 /* headings and logo */
