@@ -76,7 +76,7 @@ Lighthouse score the website the following for mobile:
 - HTML
   - One error was returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   - It related to the hero-outer not having a heading on line 36
-  - This was resolved by changing from a <section> to a <div>
+  - This was resolved by changing from a `<section>` to a `<div>`
   - No other errors were found when passing through the validator after this change
 
 - CSS
