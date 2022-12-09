@@ -104,6 +104,7 @@ h1, h2 {
     background-color: white;
     color: #013220;
     border: 2px solid #013220;
+    border-radius: 25px;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
@@ -113,6 +114,7 @@ h1, h2 {
 #resources a:hover, a:active {
     background-color: #f58549;
     color: white;
+    border-radius: 25px;
   }
 
 #left-about {
