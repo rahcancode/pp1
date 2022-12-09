@@ -61,46 +61,56 @@ The color palette chosen was meant to be easy to read on mobile devices if a dar
 I posted my deployed site to our peer review Slack channel and asked other students to test it for usability and to see if there were any bugs.
 
 One user noted that the footer nested under the newsletter form. When testing the website myself using dev tools, the background of the newsletter would "float" up through the other content on screen on screen sizes below 300px. Both issues were easily resolved by ensuring that the size of the footer and the newsletter container were not too small and were 400px or above.
+
+I struggled with website performance on mobile when testing it using Lighthouse. Image sizes were too large and took too long to load. Converting the primary images to webp format improved site performance overall from 61 to the scores noted below for desktop and mobile respectively.
+
+Lighthouse scored the website the following for desktop:
+
+![Desktop score](https://github.com/rahcancode/pp1-your-village/blob/main/media/desktop.JPG)
+
+Lighthouse score the website the following for mobile:
+
+![Mobile score](https://github.com/rahcancode/pp1-your-village/blob/main/media/mobile.JPG)
 ### Validator Testing 
 
 - HTML
   - One error was returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
   - It related to the hero-outer not having a heading on line 36
   - This was resolved by changing from a <section> to a <div>
+  - No other errors were found when passing through the validator after this change
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
 
-- When running the website through Lighthouse in Chrome, it populated two errors for performance: **Ensure text remains visible during webfont load** and **Serve static assets with an efficient cache policy**
--  
+- When running the website through Lighthouse in Chrome, it populated this errors for performance on mobile: **Serve static assets with an efficient cache policy**
+- Given the time frame the fix was beyond the scope of the project.
+- The caching issue is also unlikely to be resolved while the website is being hosted on GitHub pages, as it requires access to parts of the backend I do not have at this time.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+  - In the GitHub repository, navigate to the Settings tab. 
+  - In the left-hand menu, choose Pages.
+  - Under Build and deployment, from the source section drop-down menu, select the Main Branch.
+  - Click Save.
+  - Once the main branch has been selected and you have clicked save, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
-
+The live link can be found here - https://rahcancode.github.io/pp1-your-village/
 ## Credits 
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
+- The video run through's for the Love Running project was used as key reference points when first building the outline of the website
+- Instructions on different HTML and CSS elements were referenced from [W3Schools](https://www.w3schools.com/)
+- The icons in the resources headings and the footer were taken from [Font Awesome](https://fontawesome.com/)
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- The images used on website are from [Burst](https://burst.shopify.com/)
+- [Convertio](https://convertio.co/png-webp/) was used to convert the images from JPG and PNG to webp for faster loading times
+
+## Acknowledgements
+
+- My family: My son for being the inspiration for this website, but especially  my husband for running a tight ship for the final 48hrs before project submission
+- Daisy & Bim for encouraging daily chats
+- Grace for looking over my website in the 11th hour and offering help with this README (and for always offering help really)
