@@ -6,7 +6,7 @@ The project's name "Your Village" comes from the saying "It takes a village to r
 
 I aim to keep the website clear and concise, easy to navigate on mobile devices first and foremost, and with relevant resources for new parents in Ireland. There will be a mock "Newsletter" or group sign-up form to meet the project criteria, as though this is part of a local initiative and you can meet with other parents in your area.
 
-![Responsive screenshot](https://github.com/rahcancode/pp1-your-village/blob/main/media/sitepreview.png)
+![Responsive screenshot](https://github.com/rahcancode/pp1-your-village/blob/main/media/sitepreview.png) ![GitHub contributors](https://img.shields.io/github/contributors/rahcancode/pp1-your-village) ![GitHub language count](https://img.shields.io/github/languages/count/rahcancode/pp1-your-village) ![GitHub top language](https://img.shields.io/github/languages/top/rahcancode/pp1-your-village) ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Frahcancode.github.io%2Fpp1-your-village%2F)
 ## Features 
 
 The webpage is a static landing page with three main sections: 
@@ -74,13 +74,13 @@ Lighthouse score the website the following for mobile:
 ### Validator Testing 
 
 - HTML
-  - One error was returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - One error was returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Frahcancode.github.io%2Fpp1-your-village%2F)
   - It related to the hero-outer not having a heading on line 36
   - This was resolved by changing from a `<section>` to a `<div>`
   - No other errors were found when passing through the validator after this change
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frahcancode.github.io%2Fpp1-your-village%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
@@ -113,4 +113,5 @@ The live link can be found here - https://rahcancode.github.io/pp1-your-village/
 
 - My family: My son for being the inspiration for this website, but especially  my husband for running a tight ship for the final 48hrs before project submission
 - Daisy & Bim for encouraging daily chats
-- Grace for looking over my website in the 11th hour and offering help with this README (and for always offering help really)
+- Grace for looking over my website and offering help with this README
+- Kera for creating such a robust README template and tutorial, of which I have not done justice here. And for also helping me with my shields.io badges in the 11th hour because my brain was fried
