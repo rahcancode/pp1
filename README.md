@@ -1,93 +1,80 @@
 # Your Village
 
-
-
 This first project was born from the idea that when I was preparing to have my first baby, there was either no information about certain topics (like combo feeding for example) or an overwhelming amount of information about others. 18 months on and I wish there was a one stop link tree, landing page or website with just a few useful resources, that I could easily scroll one handed on my phone in those first few days and weeks while my son slept on me, so that I had the information I so desperately needed at the time.
 
 The project's name "Your Village" comes from the saying "It takes a village to raise a child". But, having a baby during the Pandemic, and with the more modern age we live in, there was no "village" for me at the time and there is no village for a lot of new parents.
 
 I aim to keep the website clear and concise, easy to navigate on mobile devices first and foremost, and with relevant resources for new parents in Ireland. There will be a mock "Newsletter" or group sign-up form to meet the project criteria, as though this is part of a local initiative and you can meet with other parents in your area.
+
+![Responsive screenshot](https://github.com/rahcancode/pp1-your-village/blob/main/media/sitepreview.png)
 ## Features 
 
-The webpage is a single landing page with three main sections: A welcome section with my inspiration for making the page, a resources section with four external links to useful websites I used frequently in my early postpartum days, and a mock newsletter sign-up form.
+The webpage is a static landing page with three main sections: 
+- A welcome section with my inspiration for making the page
+- A resources section with four external links to useful websites I used frequently in my early postpartum days
+- A mock newsletter sign-up form
+
+The color palette chosen was meant to be easy to read on mobile devices if a dark theme was not available. My experience of trying to read content on my phone, keeping my screen as dim as possible while using only one hand while my son slept, inspired a more neutral palette also. Some colors were changed slightly during the build of the webpage for accessability reasons.
+
+![Color Palette](https://github.com/rahcancode/pp1-your-village/blob/main/media/PP1%2BPallette.png)
 
 - __Navigation Bar__
 
   - Featured on the page is the full responsive navigation bar, which includes anchor links to the Logo, Home page, Resources and Newsletter sections.
   - This will allow the user to easily navigate from section to section across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/rahcancode/pp1-your-village/blob/main/media/nav-bar.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph of some baby items, to indicate what the website is about. 
+  - This section introduces the user to Your Village, and includes a blurb about my inspiration for creating the webpage.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/rahcancode/pp1-your-village/blob/main/media/landingpage.JPG)
 
-- __Club Ethos Section__
+- __Resources section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section will allow the user to access four resources as suggested by me and my husband, that were useful in my early postpartum days. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Resources](https://github.com/rahcancode/pp1-your-village/blob/main/media/resources.png)
 
-- __Meetup Times section__
+- __Newsletter__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The mock Newsletter sign-up form is there as though there was a way to update the user about future updates to the website, share resources, or possibly announce local meet-up groups or classes.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Newsletter](https://github.com/rahcancode/pp1-your-village/blob/main/media/newsletter.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to look for further information on the various social media sites available at this time.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
-- __Gallery__
-
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
-
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
-
-- __The Sign Up Page__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Footer](https://github.com/rahcancode/pp1-your-village/blob/main/media/footer.png)
 
 ### Features Left to Implement
 
-- Another feature idea
+- A forum style message board for people to connect and share information local to them in Ireland as new parents.
+- A genuine newsletter that would send updates and announcements to new parents who sign up.
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I posted my deployed site to our peer review Slack channel and asked other students to test it for usability and to see if there were any bugs.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
+One user noted that the footer nested under the newsletter form. When testing the website myself using dev tools, the background of the newsletter would "float" up through the other content on screen on screen sizes below 300px. Both issues were easily resolved by ensuring that the size of the footer and the newsletter container were not too small and were 400px or above.
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - One error was returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - It related to the hero-outer not having a heading on line 36
+  - This was resolved by changing from a <section> to a <div>
+
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- When running the website through Lighthouse in Chrome, it populated two errors for performance: **Ensure text remains visible during webfont load** and **Serve static assets with an efficient cache policy**
+-  
 
 ## Deployment
 
